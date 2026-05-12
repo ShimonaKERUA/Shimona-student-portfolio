@@ -19,3 +19,4 @@ CREATE TABLE projects (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (student_number) REFERENCES students(student_number) ON DELETE CASCADE
 );
+
